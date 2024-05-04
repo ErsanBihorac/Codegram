@@ -1,0 +1,46 @@
+section {
+    height: 100%;
+    min-width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    padding-top: 200px;
+    max-width: 350px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-window {
+    border: solid 1px#DBDBDB;
+    box-sizing: border-box;
+    max-height: 500px;
+    width: 100%;
+    padding: 16px 32px;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.login-fields {
+    display: flex;
+    flex-direction: column;
+
+    input {
+        background-color: #FAFAFA;
+        color: gray;
+    }
+}
+
+.register-window {
+    border: solid 1px#DBDBDB;
+    box-sizing: border-box;
+    max-height: 60px;
+    width: 100%;
+    padding: 16px 32px;
+}
